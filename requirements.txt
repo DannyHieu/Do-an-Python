@@ -1,0 +1,22 @@
+# ===================================================================
+# DANH SÁCH THƯ VIỆN CẦN CÀI ĐẶT
+#
+# Cách cài: mở terminal trong thư mục dự án và gõ:
+#     pip install -r requirements.txt
+#
+# GHI CHÚ VỀ PHIÊN BẢN:
+#   Máy đang dùng Python 3.14 (khá mới), nên ở đây chỉ ghi phiên bản
+#   TỐI THIỂU chứ không ghim cứng một con số. Lý do: các phiên bản thư
+#   viện cũ chưa có bản dựng sẵn cho Python 3.14, ghim cứng sẽ báo lỗi
+#   khi cài. Dấu >= nghĩa là "từ phiên bản này trở lên".
+#
+# KHÔNG CẦN CÀI TKINTER:
+#   Tkinter là thư viện làm giao diện có sẵn trong Python, cài Python là
+#   có luôn. Vì vậy nó không xuất hiện trong danh sách dưới đây.
+#   (Riêng trên Linux đôi khi phải cài thêm: sudo apt install python3-tk)
+# ===================================================================
+
+pandas>=2.3             # Đọc file CSV và xử lý bảng dữ liệu
+numpy>=2.1              # Tính toán số học
+scikit-learn>=1.7       # Huấn luyện và sử dụng model Machine Learning
+joblib>=1.4             # Lưu model ra file .joblib và nạp lại

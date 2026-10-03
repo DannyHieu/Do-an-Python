@@ -1,0 +1,5 @@
+﻿Thuật toán,F1 kiểm tra chéo,Accuracy,Precision,Recall,F1,ROC-AUC
+SVC,0.9603,0.9216,0.9697,0.9143,0.9412,0.9661
+RandomForest,0.9488,0.9216,1.0,0.8857,0.9394,0.9643
+LogisticRegression,0.9089,0.8235,0.9333,0.8,0.8615,0.9214
+KNN,0.9046,0.8235,1.0,0.7429,0.8525,0.9527

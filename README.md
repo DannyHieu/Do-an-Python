@@ -222,39 +222,4 @@ Những chỗ này hay bị hỏi khi bảo vệ đồ án:
 | `pip install` báo lỗi build | Máy đang dùng Python 3.14. `requirements.txt` chỉ ghi phiên bản tối thiểu (`>=`) để pip tự chọn bản hợp |
 | Chữ tiếng Việt bị lỗi font trong terminal Windows | Gõ `chcp 65001` trước khi chạy |
 
----
 
-## 11. Kiểm tra trước khi nộp
-
-- [ ] Chạy lại 2 lệnh huấn luyện từ CSV, tạo ra được file model
-- [ ] `python app.py` mở được cửa sổ, không phải sửa code tay
-- [ ] Cả 6 tab hiển thị đúng, không có lỗi
-- [ ] Thêm / sửa / tìm bệnh nhân hoạt động
-- [ ] Sàng lọc triệu chứng: dự đoán và lưu lịch sử được
-- [ ] Đánh giá chỉ số lâm sàng: dự đoán và lưu lịch sử được
-- [ ] Mỗi kết quả có hiện xác suất % và phiên bản model
-- [ ] Tab Lịch sử tra ra đúng dữ liệu đã nhập
-- [ ] Số ở tab Tổng quan khớp với database
-- [ ] Nhập sai (tuổi ngoài 1–120, tên trống, ngày sinh không có thật) thì bị chặn
-- [ ] README này có đủ hướng dẫn cài đặt và chạy
-
----
-
-## 12. Hướng mở rộng sau đồ án
-
-- Đăng nhập và phân quyền Bác sĩ / Quản trị / Người dùng
-- Chuyển từ SQLite sang PostgreSQL khi nhiều người dùng cùng lúc
-- Giải thích dự đoán bằng SHAP / feature importance
-- Xuất kết quả đánh giá ra file PDF
-- Đóng gói thành file .exe bằng PyInstaller để chạy trên máy không cài Python
-
----
-
-## 13. Lưu ý quan trọng
-
-Ứng dụng này là **bài tập học thuật**. Kết quả chỉ mang tính tham khảo và
-hỗ trợ sàng lọc ban đầu, **không phải chẩn đoán y khoa**. Không dùng để thay
-thế việc khám và tư vấn của bác sĩ.
-
-Dữ liệu bệnh nhân trong ứng dụng là dữ liệu demo bịa ra. Không đưa hồ sơ bệnh
-nhân thật lên kho mã nguồn.
